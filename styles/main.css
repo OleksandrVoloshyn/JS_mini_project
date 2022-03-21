@@ -1,0 +1,13 @@
+.users{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.users > a {
+    width: 200px;
+    background: cornflowerblue;
+    margin: 10px calc(25% - 100px);
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
